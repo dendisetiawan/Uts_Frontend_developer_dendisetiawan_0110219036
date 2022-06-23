@@ -5,9 +5,20 @@
 background-color: aqua;
 padding:1rem;
 color:white;
+text-align: center;
+
 }
+
+
+
 .Footer__title{
-    padding:1rem;
+ margin-bottom: 5rem;
+    
+}
+.Footer__author{
+    margin-bottom: 1rem;
+    text-align: center;
+    justify-content: center;
 }
 .Footer__brand{
 margin-bottom: 1rem;

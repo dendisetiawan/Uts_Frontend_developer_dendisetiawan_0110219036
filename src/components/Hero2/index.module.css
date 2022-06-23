@@ -7,17 +7,19 @@
     }
     
     
-.Hero{
+.styles_Hero{
     margin: 1rem;
     text-align: center;
     margin-bottom: 1rem;
+    justify-content: center;
 }
-.Hero__title{
-    color: aqua;
+.Hero_title{
+    color:aqua;
     margin-bottom: 1rem;
     margin-top: 10rem;
+    text-align: center;
 }
-.Hero__genre{
+.styles_Hero_genre{
     color: black;
     margin-bottom: 1rem;
 }
@@ -40,6 +42,13 @@
     
     td {
     text-align: center;
-    justify-content: top;
+    justify-content: center;
+    }
+    form{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
     }
     

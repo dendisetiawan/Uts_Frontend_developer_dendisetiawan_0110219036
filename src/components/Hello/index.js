@@ -1,9 +1,11 @@
 import styles from "./Hello.module.css";
 import gambar1 from "../img/gambar1.png";
 
+
 console.log(gambar1);
 
-function Hello() {
+function Hello(){
+
   return (
    <div className={styles.container}>
  <section className={styles.Hero}>

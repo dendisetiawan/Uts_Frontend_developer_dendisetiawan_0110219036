@@ -2,7 +2,8 @@ import styles from "./index.module.css"
 
 function Hero() {
     return (
-        <div className={styles.Hero}>
+  
+  <div className={styles.Hero}>
             <section className={styles.Hero}>
                 <div>
                     <h2 className={styles.Hero__title}>Provinsi</h2>
@@ -61,6 +62,8 @@ function Hero() {
        <input type="text" name="name" />
       </label>
       <input type="submit" value="Submit" />
+
+      
          
          </form>
          

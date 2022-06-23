@@ -1,15 +1,15 @@
-import Footer from "../components/Footer";
 import Hello from "../components/Hello";
-import Hero from "../components/Hero/Hero";
-import Navbar from "../components/Navbar";
-import Hero2 from "../components/Hero2/index";
+import Global from "../components/Global/Global";
+import Summary from "../components/Summary";
+
+
 
 function Main() {
   return (
     <main>
    <Hello/>
-   <Hero/>
-   <Hero2/>
+   <Global/>
+   <Summary />
 
     </main>
   );
@@ -18,13 +18,15 @@ function Main() {
 function Home() {
   return (
  <div>   
-      <Navbar />
+     
       <Main />
-      <Footer />
+     
       
       
     </div>
   );
+
+
 }
 
 export default Home;

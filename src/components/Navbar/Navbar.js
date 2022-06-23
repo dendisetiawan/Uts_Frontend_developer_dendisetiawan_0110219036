@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styles from "./Navbar.module.css"
 
 function Navbar() {
@@ -9,10 +10,14 @@ function Navbar() {
           </div>
           <div>
               <ul className={styles.navbar__list}>
-                  <li className={styles.navbar__item}>Home</li>
-                  <li className={styles.navbar__item}>Indonesia</li>
-                  <li className={styles.navbar__item}>Provinsi</li>
-                  <li className={styles.navbar__item}>About</li>
+                  <li className={styles.navbar__item}>
+                      <Link to="/Covid/global">Global</Link></li>
+                  <li className={styles.navbar__item}>
+                      <Link to="/Covid/Indonesia">Indonesia</Link></li>
+                  <li className={styles.navbar__item}>
+                      <Link to="/Covid/Provinsi">Provinsi</Link></li>
+                  <li className={styles.navbar__item}>
+                      <Link to="/Covid/About">About</Link></li>
               </ul>
           </div>
       </nav>
